@@ -11,7 +11,8 @@
   "scripts": {
     "start": "node app",
     "register": "node app/commands.js",
-    "dev": "nodemon app"
+    "dev": "nodemon app",
+    "deploy": "vercel --prod"
   },
   "author": "Runas",
   "license": "MIT",
